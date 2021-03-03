@@ -1,8 +1,10 @@
 # Project name : AKAN NAMING
 
 
-# Aurhor name : Elvis Mwenda
+# Author name : Elvis Mwenda
 
+
+# Link :https://github.com/KingNEM/IP2.git
 
 # Description :
   This is an application through which a user is able to fill a form provided,
