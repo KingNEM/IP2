@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AKAN NAMING</title>
+    </head>
+    <body> 
+        <div class="unimportant"
+        <h>AKAN NAMING</h>
+        <p>This is an application that calculates and 
+            finds user's Akan name after he/she fill
+            the correct information in the form provided.
+            The application is then able to calculate and output the Aka name 
+            of the user.
+        </p>
+        <h id="header">
+            Fill the form below correctly!
+        </h>
+    </div>
+    <div class="important">
+       <form action="/action_page.php" on submit="return validateForm()"method>
+           <label>Day</label>
+           <input type="text" id="day" required>
+           <label>Month</label>
+           <input type="text" id="month" required>
+           <label>Year</label>
+           <input type="text" id="month" required>
+               
+            <div id="radio">
+               <label for="Gender"> Gender 
+               <label for="male">Male</label><br>
+               <input type="radio" name="Male" id="male" required>
+               <label for="female">Female</label>
+               <input type="radio" name="Female" id="female"  required>
+               </label>
+            </div>
+            <input type="submit" value="submit" onclick="validateForm">
+
+          
+       </form>
+    </div>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
