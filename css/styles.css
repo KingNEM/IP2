@@ -39,4 +39,10 @@
          text-decoration-line: underline;
          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      }
+     #name {
+         font-family: monospace;
+         text-align: center;
+         background-color: darkslategray;
+         text-decoration-color: greenyellow;
+     }
     }

@@ -15,21 +15,53 @@
             the correct information in the form provided.
             The application is then able to calculate and output the Aka name 
             of the user.
+
+<div id="name">
+Male
+Sunday: Kwasi
+
+Monday: Kwadwo
+
+Tuesday: Kwabena
+
+Wednesday: Kwaku
+
+Thursday:  Yaw
+
+Friday: Kofi
+
+Saturday: Kwame
+
+Female
+Sunday: Akosua
+
+Monday: Adwoa
+
+Tuesday: Abenaa
+
+Wednesday: Akua
+
+Thursday:  Yaa
+
+Friday: Afua
+
+Saturday: Ama
+</div>
         </p>
         <h id="header">
             Fill the form below correctly!
         </h>
     </div>
     <div class="important">
-       <form action="/action_page.php" on submit="return validateForm()"method>
+       <form action="/action_page.php" on submit="getName()"method>
            <label>Day</label>
-           <input type="text" id="day" required>
+           <input type="text" id="day" value>
            <label>Month</label>
-           <input type="text" id="month" required>
+           <input type="text" id="month" value>
            <label>Year</label>
-           <input type="text" id="month" required>
+           <input type="text" id="month" value>
                
-            <div id="radio">
+            <div id="gender">
                <label for="Gender"> Gender 
                <label for="male">Male</label><br>
                <input type="radio" name="Male" id="male" required>
@@ -37,7 +69,7 @@
                <input type="radio" name="Female" id="female"  required>
                </label>
             </div>
-            <input type="submit" value="submit" onclick="validateForm">
+            <input type="submit" value="submit" onclick="getName">
 
           
        </form>
