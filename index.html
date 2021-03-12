@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="UTF-8">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AKAN NAMING</title>
-    </head>
-    <body> 
+<head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>AKAN NAMING</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body> 
         <div class="unimportant">
-        <h>AKAN NAMING</h>
-        <p>This is an application that calculates and 
-            finds user's Akan name after he/she fill
-            the correct information in the form provided.
-            The application is then able to calculate and output the Aka name 
-            of the user.
+           
+                <h1>AKAN NAMING</h1>         
 
-<div id="name">
-Male
-Sunday: Kwasi
+        
 
-Monday: Kwadwo
-
-Tuesday: Kwabena
-
-Wednesday: Kwaku
-
-Thursday:  Yaw
-
-Friday: Kofi
-
-Saturday: Kwame
-
-Female
-Sunday: Akosua
-
-Monday: Adwoa
-
-Tuesday: Abenaa
-
-Wednesday: Akua
-
-Thursday:  Yaa
-
-Friday: Afua
-
-Saturday: Ama
+     <p>Its an application that calculates the day a user is born depending on
+         their gender and then outsputs their Akan name </p>
+         <p1>Akan names are derived from the Ghanian culture</p1>
+         <p2>Below are the Ghanian day names:</p2>
+         <h2>Male</h2>
+         <ul>
+             <li class="grey">Sunday:Kwasi</li>
+             <li>Monday:Kwadwo</li>
+             <li>Tuesday:Kwabena</li>
+             <li>Wednesday:Kwaku</li>
+             <li>Thursday:Yaw</li>
+             <li>Friday:Kofi</li>
+             <li class="bg-danger">Saturday:Kwame</li>    
+         </ul>
+         <h3>Female</h3>
+         <ul>
+                 <li class="grey">Sunday:Akosua</li>
+                 <li>Monday:Adwoa</li>
+                 <li>Tuesday:Abenaa</li>
+                 <li>Wednesday:Akua</li>
+                 <li>Thursday:Yaa</li>
+                 <li>Friday:Afua</li>
+                 <li class="bg-danger">Saturday:Ama</li>
+         </ul>
 </div>
-        </p>
-        <h id="header">
-            Fill the form below correctly!
-        </h>
-    </div>
-    <div class="important">
-       <form action="/action_page.php" on submit="getName()"method>
-           <label>Day</label>
-           <input type="text" id="day" value>
-           <label>Month</label>
-           <input type="text" id="month" value>
-           <label>Year</label>
-           <input type="text" id="month" value>
-               
-            <div id="gender">
-               <label for="Gender"> Gender 
-               <label for="male">Male</label><br>
-               <input type="radio" name="Male" id="male" required>
-               <label for="female">Female</label>
-               <input type="radio" name="Female" id="female"  required>
-               </label>
-            </div>
-            <input type="submit" value="submit" onclick="getName">
+        <div class="important">
+         <form action="/action_page.php">
 
-          
-       </form>
-       <P class="line">IT HAS BEEN INTERESTING TO KNOW MY AKAN NAME!</P>
-    </div>
-        <script src="js/scripts.js"></script>
+                
+                <label>Day</label>
+                <input type="text" id="fday" placeholder="Input">
+
+                <label>Month</label>
+                <input type="text" id="fmonth" placeholder="Input">
+
+
+                <label>Year</label>
+                <input type="text" id="fyear" placeholder="Input">
+
+
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+
+                <input type="submit" value="Submit" onclick="validateForm()">
+         </form>
+
+        </div>
+
+         <p>It has been exciting to know my Akan name</p>
+
+<script src="js/scripts.js"></script>
     </body>
-</html>
+    </html>  
