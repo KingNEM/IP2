@@ -4,7 +4,7 @@
 # Author name : Elvis Mwenda
 
 
-# Link :https://github.com/KingNEM/IP2.git
+# Link :https://kingnem.github.io/IP2/
 
 # Description :
   This is an application through which a user is able to fill a form provided,
